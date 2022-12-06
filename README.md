@@ -10,10 +10,10 @@
 
 
 
-###---설치 시작---
+### ---설치 시작---
 
 
-#####환경변수 설정하기
+##### 환경변수 설정하기
 윈도우 + x을 누르고 시스템 선택 그리고 고급 시스템 설정 누르기 고급 탭에서 환경 변수 클릭하고 새로 만들기하여 이름과 디렉터리 경로 설정하기
 JAVA_HOME
 C:\HybirdApp\jdk1.8XX
@@ -23,7 +23,7 @@ C:\Users(사용자명)\AppData\Local\Android\SDK or android-sdk
 GRADLE_HOME
 C:\gradle7.3_bin
 
-#####환경변수 Path 설정하기
+##### 환경변수 Path 설정하기
 고급 탭에서 환경 변수 클릭하고 시스템 변수 안에 path 라는 변수을 찾아 눌러주고 편집 누르기
 그 안에서 새로만들기 하여 아래의 표시 들어가게 하기
 %JAVA_HOME%\bin
@@ -68,7 +68,7 @@ Intel x86 Emulator Accelerator(HAXM installer)
 (해당 설치파일이 없다면 없어도 무관합니다.)
 (Android Studio 종료 후에 C:\Users[사용자명].android 내에 있는 debug.keystore파일 삭제)
 
-#####코르도바 앱 설정하기
+##### 코르도바 앱 설정하기
 상단 경로 표시가 되어 있는 곳에서 app을 클릭하고 build.gradle(:app)을 클릭하기
 -android 밑에 namespace 위에 이 코드 집어 넣기
 packagingOptions {
@@ -87,7 +87,7 @@ AndroidMainfast.xml에서 application 태그 안에 이 설정 코드 추가하�
 android:largeHeap="true"
 다 한 다음 저장하기
 
-#####코르도바 앱 만들기
+##### 코르도바 앱 만들기
 C:\HybirdProject에 들어가기 (위에 설명함)
 cordova create (폴더명) com.example.test (앱이름) -d로 코르도바 앱 만들기
 cd (폴더명)한 다음 cordova platform add android해서 플랫폼 추가하기
