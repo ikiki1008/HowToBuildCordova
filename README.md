@@ -1,3 +1,17 @@
+# 회사 소개 앱
+
+> 이 앱은 제가 이 후에 가고싶은 회사를 소개하는 하이브리드 앱 입니다.
+>> 뉴욕에 위치한 개발자 회사입니다.
+
+
+
+![2](https://user-images.githubusercontent.com/80104121/205823882-a6922179-f351-496c-a3fc-766c9cde20bf.png)
+![1](https://user-images.githubusercontent.com/80104121/205823891-da206f7d-3dee-417c-8f77-d3e4f756a818.png)
+
+
+
+<hr> 
+
 # HowToBuildCordova
 
 
@@ -115,5 +129,9 @@ cd (폴더명)한 다음 cordova platform add android해서 플랫폼 추가하�
 확인이 끝난 후 Android Studio을 실행 시키고 상단 메뉴에 File 클릭하고 open을 클릭하기
 C:\HybirdProject(폴더명)\platforms\android 선택하고 설정 다운로드 다 될때 까지 기다리기
 
+
+
+
 ![과제](https://user-images.githubusercontent.com/80104121/205801762-c8f1b3ff-f05b-4dae-8e18-c3765421f7b8.png)
+
 
